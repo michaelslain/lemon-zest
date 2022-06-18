@@ -1,0 +1,22 @@
+.text {
+}
+
+.small {
+	font-size: 60px;
+}
+
+.medium {
+	font-size: 100px;
+}
+
+.large {
+	font-size: 160px;
+}
+
+.light {
+	color: black;
+}
+
+.dark {
+	color: white;
+}

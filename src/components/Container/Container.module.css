@@ -1,0 +1,182 @@
+.container {
+	position: relative;
+}
+
+.round,
+.round .overlay {
+	border-radius: 10px;
+}
+
+.overlay {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 10;
+	pointer-events: none;
+}
+
+/* theme types */
+.light {
+	background: white;
+}
+
+.dark {
+	background: #141414;
+}
+
+.shadow {
+	border-style: solid;
+	border-width: 0.5px;
+}
+
+.light.shadow {
+	border-color: #e3e3e3;
+	box-shadow: #e3e3e3 10px 10px 20px;
+}
+
+.dark.shadow {
+	border-color: #242424;
+	box-shadow: #2e2e2e 20px 20px 20px;
+}
+
+/* brightness prop */
+
+.light.lighter {
+}
+
+.light.darker {
+	background: #e3e3e3;
+}
+
+.dark.lighter {
+	background: #242424;
+}
+
+.dark.darker {
+	background: black;
+}
+
+.transparent {
+	background: transparent;
+}
+
+/* flex parameters */
+.flex {
+	display: flex;
+}
+
+.flex.horizontal,
+.flex.row {
+	flex-direction: row;
+}
+
+.flex.vertical,
+.flex.column {
+	flex-direction: column;
+}
+
+.flex.horizontal.horizontalAlignmentspace-around,
+.flex.row.horizontalAlignmentspace-around {
+	align-items: space-around;
+}
+
+.flex.horizontal.horizontalAlignmentspace-between,
+.flex.row.horizontalAlignmentspace-between {
+	align-items: space-between;
+}
+
+.flex.horizontal.horizontalAlignmentspace-evenly,
+.flex.row.horizontalAlignmentspace-evenly {
+	align-items: space-evenly;
+}
+
+.flex.horizontal.horizontalAlignmentstart,
+.flex.row.horizontalAlignmentstart {
+	align-items: flex-start;
+}
+
+.flex.horizontal.horizontalAlignmentend,
+.flex.row.horizontalAlignmentend {
+	align-items: flex-end;
+}
+
+.flex.horizontal.verticalAlignmentspace-around,
+.flex.row.verticalAlignmentspace-around {
+	justify-content: space-around;
+}
+
+.flex.horizontal.verticalAlignmentspace-between,
+.flex.row.verticalAlignmentspace-between {
+	justify-content: space-between;
+}
+
+.flex.horizontal.verticalAlignmentspace-evenly,
+.flex.row.verticalAlignmentspace-evenly {
+	justify-content: space-evenly;
+}
+
+.flex.horizontal.verticalAlignmentstart,
+.flex.row.verticalAlignmentstart {
+	justify-content: flex-start;
+}
+
+.flex.horizontal.verticalAlignmentend,
+.flex.row.verticalAlignmentend {
+	justify-content: flex-end;
+}
+
+/*  */
+/*  */
+/*  */
+
+.flex.vertical.horizontalAlignmentspace-around,
+.flex.column.horizontalAlignmentspace-around {
+	justify-content: space-around;
+}
+
+.flex.vertical.horizontalAlignmentspace-between,
+.flex.column.horizontalAlignmentspace-between {
+	justify-content: space-between;
+}
+
+.flex.vertical.horizontalAlignmentspace-evenly,
+.flex.column.horizontalAlignmentspace-evenly {
+	justify-content: space-evenly;
+}
+
+.flex.vertical.horizontalAlignmentstart,
+.flex.column.horizontalAlignmentstart {
+	justify-content: flex-start;
+}
+
+.flex.vertical.horizontalAlignmentend,
+.flex.column.horizontalAlignmentend {
+	justify-content: flex-end;
+}
+
+.flex.vertical.verticalAlignmentspace-around,
+.flex.column.verticalAlignmentspace-around {
+	align-items: space-around;
+}
+
+.flex.vertical.verticalAlignmentspace-between,
+.flex.column.verticalAlignmentspace-between {
+	align-items: space-between;
+}
+
+.flex.vertical.verticalAlignmentspace-evenly,
+.flex.column.verticalAlignmentspace-evenly {
+	align-items: space-evenly;
+}
+
+.flex.vertical.verticalAlignmentstart,
+.flex.column.verticalAlignmentstart {
+	align-items: flex-start;
+}
+
+.flex.vertical.verticalAlignmentend,
+.flex.column.verticalAlignmentend {
+	align-items: flex-end;
+}

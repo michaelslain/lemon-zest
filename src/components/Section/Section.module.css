@@ -1,0 +1,14 @@
+.container {
+	width: 100vw;
+	padding-top: 100px;
+	padding-bottom: 100px;
+	position: relative;
+}
+
+.light {
+	background: white;
+}
+
+.dark {
+	background: #141414;
+}

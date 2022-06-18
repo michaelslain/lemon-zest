@@ -1,0 +1,44 @@
+.container {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	position: fixed;
+	z-index: 100;
+	background: white;
+}
+
+.up,
+.down {
+	width: 100vw;
+	height: 100px;
+}
+
+.left,
+.right {
+	width: 150px;
+	height: 100vh;
+	flex-direction: column;
+}
+
+.up,
+.left {
+	top: 0;
+	left: 0;
+}
+
+.right,
+.down {
+	bottom: 0;
+	right: 0;
+}
+
+.tabContainer {
+	display: flex;
+	gap: 60px;
+}
+
+.left .tabContainer,
+.right .tabContainer {
+	flex-direction: column;
+	gap: 40px;
+}

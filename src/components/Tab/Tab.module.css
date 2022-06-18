@@ -1,0 +1,10 @@
+.text {
+	text-decoration: none;
+	color: black;
+	transition: opacity 0.05s ease-in-out;
+	cursor: pointer;
+}
+
+.text:hover {
+	opacity: 0.6;
+}
