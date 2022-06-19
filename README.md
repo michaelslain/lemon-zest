@@ -46,3 +46,9 @@ yarn build
 # OR
 npm run build
 ```
+
+### Components Todo
+
+-   Form
+-   Input
+-   Gallery
